@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+   }
+
+
+/* -----------------------------------------Elements principaux de la page -----------------------------------------*/
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+
+
+     /* --------------------------------------------header --------------------------------------------*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+#logo_titre
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 15px 20px;
+}
+
+#logo img
+{
+    width: 80px;
+    height: 40px;
+}
+
+header h1
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header p
+{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+
+    /* --------------------------------------------Navigation-------------------------------------------- */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 30px;
+}
+
+nav a
+{
+    font-size: 17px;
+    color: #000;
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065fc;
+    border-top: 3px solid #0065fc;
+}
+
+    /*--------------------------------------------formulaire-------------------------------------------- */
+
+form
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+form i
+{ 
+    color: #000;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px 0 0 12px;
+    background-color: #f2f2f2;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    left: 2px;
+}
+
+#recherche
+{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    border: solid 1px #f2f2f2;
+}
+
+#boutton_recherche
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    background-color: #0065fc;
+    border: solid 1px #0065fc;
+    border-radius: 0 12px 12px 0;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    right: 2px;
+}
+
+    /*--------------------------------------------les filtres--------------------------------------------*/
+
+#filtres
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+div h2
+{
+    font-size: 14px;
+}
+
+#filtres ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+#filtres a
+{
+    color: black;
+    text-decoration: none;
+}
+
+    /*--------------------------------------------footer--------------------------------------------*/
+
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+footer h2
+{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+#A_propos
+{
+    width: 25%;
+}
+
+#hebergements
+{
+    width: 25%;
+}
+
+#assistance
+{
+    width: 25%;
+}
+
+
