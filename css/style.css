@@ -11,7 +11,11 @@ body
     color: #000;
 }
 
-
+#bloc_page
+{
+    width: 95%;
+    margin: auto;
+}
 
      /* --------------------------------------------header --------------------------------------------*/
 
@@ -33,20 +37,20 @@ header
 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0 0 15px 20px;
+    align-items: baseline;
 }
 
 #logo img
 {
-    width: 80px;
-    height: 40px;
+    width: 90px;
+    height: 45px;
 }
 
 header h1
 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 header p
@@ -54,20 +58,20 @@ header p
     font-size: 14px;
     font-weight: normal;
     margin-top: 0;
-}
+} 
 
 
     /* --------------------------------------------Navigation-------------------------------------------- */
 
-nav ul
+ nav ul
 {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
 }
 
 nav li
 {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 nav a
@@ -158,10 +162,11 @@ div h2
 
     /*--------------------------------------------footer--------------------------------------------*/
 
-footer
+ footer
 {
     display: flex;
     background-color: #f2f2f2;
+    padding: 15px;
 }
 
 footer h2
@@ -174,7 +179,11 @@ footer ul
 {
     list-style-type: none;
     padding-left: 0px;
-    margin-top: 0px;
+}
+
+footer li
+{
+    margin-bottom: 5px;
 }
 
 footer a
@@ -183,22 +192,25 @@ footer a
     color: #000;
     font-size: 13px;
     font-weight: normal;
-    margin-bottom: 50px;
 }
 
-#A_propos
+footer a:hover
 {
-    width: 25%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
 }
 
-#hebergements
+#a_propos
 {
-    width: 25%;
+    width: 30%;
 }
 
-#assistance
+#nos_hebergements
 {
-    width: 25%;
+    width: 30%;
 }
 
-
+/* #assistance
+{
+    width: 0px;
+} */
