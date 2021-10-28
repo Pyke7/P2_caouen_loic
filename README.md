@@ -1,1 +1,1 @@
-Booki - Site réservation de logements
+Booki - Site de réservation de logements 
