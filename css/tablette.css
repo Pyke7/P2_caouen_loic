@@ -6,9 +6,14 @@
 
   /* --------------------------------------------header --------------------------------------------*/
 
-
+header
+{
+    margin-right: 0px;
+}
   
 /* main */
+
+
 
   /* slogan plus petit */
 
@@ -23,23 +28,45 @@
 }
 
 /* form */
-/* Rien à modifier */
 
+form
+{
+    margin-bottom: 30px;
+}
 
 /* filtres */
 
+#filtres
+{
+    flex-wrap: wrap;
+}
 
+#filtres h3
+{
+    margin: 0 30px 16px 0;
+}
+
+.all_filters
+{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.filtres_style
+{
+    margin-bottom: 10px;
+}
 
 /* section 1 */
 
 #hebergements
 {
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .bloc_hebergements
 {
-    margin: 0 0 40px 0;
+    margin: 40px 0 0px 0;
 }
 
 .bloc_populaires

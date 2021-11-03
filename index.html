@@ -31,43 +31,39 @@
             </div>
 
             <form action="#">
-                <i class="fas fa-map-marker-alt"></i>
+                <div class="icon_geo"><i class="fas fa-map-marker-alt"></i></div>
                 <input type="text" name="recherche" placeholder="Marseille, France" maxlength="20" size="20">
-                <input type="submit" value="Rechercher">
+                <button type="submit" id="search">
+                    <span id="search_text"><p>Rechercher</p></span>
+                    <span id="search_icon"><i class="fas fa-search"></i></span>
+                </button>
             </form>
                     
             <div id="filtres"> 
                 <h3>Filtres</h3>
-                <div class="filters">
+                <div class="all_filters">
                     <div class="filtres_style">
-                        <div class="filters_icons">
-                            <i class="icons fas fa-money-bill-wave"></i>
-                        </div>
-                        <p class="filters_names">Économique</p>
+                        <div class="filters_icons_circle"><i class="icons fas fa-money-bill-wave"></i></div>
+                        <p class="filters_names">Économique</p> 
                     </div>
                     <div class="filtres_style">
-                        <div class="filters_icons">
-                            <i class="icons fas fa-child"></i>
-                        </div>
+                        <div class="filters_icons_circle"><i class="icons fas fa-child"></i></div>
                         <p class="filters_names">Familial</p>
                     </div>
                     <div class="filtres_style">
-                        <div class="filters_icons">
-                            <i class="icons fas fa-heart"></i>
-                        </div>
+                        <div class="filters_icons_circle"><i class="icons fas fa-heart"></i></div>
                         <p class="filters_names">Romantique</p>
                     </div>
                     <div class="filtres_style">
-                        <div class="filters_icons">
-                            <i class="icons fas fa-dog"></i>
-                        </div>
+                        <div class="filters_icons_circle"><i class="icons fas fa-dog"></i></div>
                         <p class="filters_names">Animaux autorisés</p>
                     </div>
                 </div>
             </div>
 
             <div class="logements">
-                <i class="fas fa-info"></i><p> Plus de 500 logements sont disponibles dans cette ville</p>
+                <div class="cercle_icon"><i class="fas fa-info"></i></div>
+                <p> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
                 
             <div id="hebergements">
