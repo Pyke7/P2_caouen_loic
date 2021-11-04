@@ -93,10 +93,6 @@ input[type="text"]
     margin-left: 20px;
 }
 
-.all_filters
-{
-    flex-wrap: wrap;
-}
 
 .filtres_style
 {
@@ -109,6 +105,11 @@ input[type="text"]
 {
     align-items: baseline;
     margin: 20px;
+}
+
+.cercle_icon
+{
+    padding: 10px;
 }
 
 /* section 1 */
