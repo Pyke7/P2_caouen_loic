@@ -11,12 +11,21 @@
     src: url('fonts/Raleway-Regular.ttf') format('TrueType');
 }
 
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('fonts/Raleway-Medium.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/Raleway-Bold.ttf') format('TrueType');
+}
+
 body
 {
     font-family: 'Raleway', sans-serif;
     color: #000;
     margin: auto;
-    /* max-width: 1440px; */
 }
 
 html, body
@@ -32,6 +41,8 @@ html, body
     
 #main_container h1 
 {
+    font-family: 'Raleway-Bold';
+    font-weight: bold;
     font-size: 22px;
     margin: 15px auto;
 }
@@ -39,6 +50,7 @@ html, body
 #main_container .slogan p 
 {
     margin: 15px auto;
+    font-family: 'Raleway-Medium';
 }   
 
 main img
@@ -99,6 +111,7 @@ nav ul
 nav li
 {
     margin-right: 20px;
+    font-family: 'Raleway-Medium';
 }
 
 nav a
@@ -141,7 +154,7 @@ input[type="text"]
     font-size: 14px;
     font-weight: bold;
     padding-left: 15px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway-Bold', sans-serif;
     border: solid 1px #f2f2f2;
     outline: none;
 }
@@ -153,8 +166,7 @@ input[type="text"]
     align-items: center;
     color: #fff;
     font-size: 14px;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway-Bold', sans-serif;
     background-color: #0065fc;
     border: solid 1px #0065fc;
     border-radius: 0 12px 12px 0;
@@ -179,6 +191,7 @@ input::placeholder
     display: flex;
     align-items: center;
     margin-bottom: 14px;
+    font-family: 'Raleway-Bold';
 }
 
 .all_filters
@@ -245,6 +258,11 @@ input::placeholder
     align-items: center;
 }
 
+.logements p
+{
+    font-family: 'Raleway-Medium';
+}
+
 .cercle_icon
 {
     display: flex;
@@ -285,7 +303,8 @@ input::placeholder
 
 .bloc_hebergements h3
 {
-    font-size: 18px;
+    font-family: 'Raleway-Bold';
+    font-size: 22px;
     margin: 0;
     padding-bottom: 15px;
 }
@@ -340,17 +359,19 @@ input::placeholder
 {
     margin: 0;
     padding-bottom: 10px;
+    font-family: 'Raleway-Bold';
 }
 
 .card_hebergements p
 {
     margin: 0;
     padding-bottom: 10px;
+    font-family: 'Raleway-Medium';
 }
 
 .A_plus
 {
-    font-weight: bold;
+    font-family: 'Raleway-Bold';
     padding-top: 20px;
 }
 
@@ -371,6 +392,12 @@ input::placeholder
 .bloc_populaires header
 {
     margin: 0;
+}
+
+.bloc_populaires h3
+{
+    font-family: 'Raleway-Bold';
+    font-size: 22px;
 }
 
 .titreIcon
@@ -435,15 +462,17 @@ input::placeholder
     /* line-height: 5px; */
 }
 
-.card_populaires p
-{
-    margin: 10px 0;
-}
-
 .card_populaires h4
 {
     margin: 5px 0;
     font-weight: bold;
+    font-family: 'Raleway-Bold';
+}
+
+.card_populaires p
+{
+    margin: 10px 0;
+    font-family: 'Raleway-Medium';
 }
 
 .prix
@@ -469,6 +498,7 @@ input::placeholder
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    font-family: 'Raleway-Bold';
 }
 
 .bloc_activites_content
@@ -611,6 +641,7 @@ footer
 footer h2
 {
     font-size: 14px;
+    font-family: 'Raleway-Bold';
 }
 
 footer ul
@@ -621,6 +652,7 @@ footer ul
 footer li
 {
     margin-bottom: 5px;
+    font-family: 'Raleway-Medium';
 }
 
 footer a
