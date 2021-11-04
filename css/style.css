@@ -400,6 +400,7 @@ input::placeholder
 .card_populaires
 {
     width: 100%;
+    min-width: 280px;
     height: auto;
     background-color: #fff;
     border: 5px solid #fff;
@@ -420,6 +421,8 @@ input::placeholder
     border-radius: 15px 0px 0px 15px;
 }
 
+
+
 .card_populaires figcaption
 {
     display: flex;
@@ -427,6 +430,7 @@ input::placeholder
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    width: 60%;
     padding: 10px 0 10px 20px;
     /* line-height: 5px; */
 }
