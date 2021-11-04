@@ -63,7 +63,7 @@ form
 input[type="text"]
 {
     font-size: 16px;
-    width: 55%;
+    width: 60%;
 }
 
 #search
@@ -115,6 +115,7 @@ input[type="text"]
 #hebergements
 {
     flex-direction: column-reverse;
+    margin-bottom: 0px;
 }
 
 .bloc_hebergements
@@ -162,6 +163,57 @@ input[type="text"]
 .card_populaires
 {
     margin-bottom: 10px;
+}
+
+/* section activites */
+
+#activites
+{
+    margin: 0 20px 40px 20px;
+}
+
+.bloc_activites_content
+{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.gros_bloc_1
+{
+    flex-direction: column;
+    margin-right: 0;
+}
+
+
+.petit_bloc_1
+{
+    margin-left: 0;
+}
+
+.gros_bloc_2
+{
+    margin-left: 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.petit_bloc_2
+{   
+    margin-left: 0;
+}
+
+.card_activites
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.card_activites img
+{
+    height: 120px;
 }
 
 /* footer */
