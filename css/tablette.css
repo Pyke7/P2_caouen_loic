@@ -19,12 +19,12 @@ header
 
 #main_container h1
 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #main_container .slogan p 
 {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* form */
@@ -81,40 +81,60 @@ form
     height: 300px;
 }
 
-.card_1 img
+.card_1 img{
+    height: 79%;
+}
+
+.card_2
 {
-    height: 250px;
+    height: 56%;
+    margin-bottom: 30px;
 }
 
 .card_2 img
 {
-    height: 110px;
+    height: 65%;
+}
+
+.card_3
+{
+    height: 34%;
 }
 
 .card_3 img
 {
-    height: 65px;
+    height: 55%;
 }
 
 .card_4 img
 {
-    height: 250px;
+    height: 79%;   
+}
+
+.card_5
+{
+    height: 45%;
+    margin-bottom: 30px;
 }
 
 .card_5 img
 {
-    height: 80px;
+    height: 52%;
+}
+
+.card_6
+{
+    height: 45%;
 }
 
 .card_6 img
 {
-    height: 80px;
+    height: 70%;
 }
 
 #activites  h4 
 {
-    padding: 10px 0 10px 15px;
-    margin: 0;
+    margin: 10px 0;
 }
 
 /* footer*/
