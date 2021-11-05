@@ -1,21 +1,15 @@
   
-/* body
-{
-    width: auto;
-} */
 
-  /* --------------------------------------------header --------------------------------------------*/
+  /* ---------------------------------header ----------------------------------*/
 
 header
 {
     margin-right: 0px;
 }
   
-/* main */
+/*--------------------------------- main--------------------------------- */
 
-
-
-  /* slogan plus petit */
+/* ---------slogan plus petit--------- */
 
 #main_container h1
 {
@@ -27,14 +21,14 @@ header
     font-size: 16px;
 }
 
-/* form */
+/* ---------form ---------*/
 
 form
 {
     margin-bottom: 30px;
 }
 
-/* filtres */
+/* ---------filtres---------*/
 
 #filtres
 {
@@ -57,7 +51,7 @@ form
     margin-bottom: 10px;
 }
 
-/* section 1 */
+/*--------- section hebergements--------- */
 
 #hebergements
 {
@@ -74,7 +68,7 @@ form
     margin-left: 0;
 }
 
-/* section 2 */
+/* ---------section activites--------- */
 
 .bloc_activites_content
 {
@@ -137,5 +131,5 @@ form
     margin: 10px 0;
 }
 
-/* footer*/
-/* Rien à modifier */
+/* ---------footer---------*/
+/* ---------Rien à modifier--------- */

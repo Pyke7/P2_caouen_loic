@@ -34,25 +34,6 @@ html, body
     overflow-x: hidden;
 }
 
-#main_container
-{
-    margin: 0px 50px 60px 50px;
-}
-    
-#main_container h1 
-{
-    font-family: 'Raleway-Bold';
-    font-weight: bold;
-    font-size: 22px;
-    margin: 15px auto;
-}
-    
-#main_container .slogan p 
-{
-    margin: 15px auto;
-    font-family: 'Raleway-Medium';
-}   
-
 main img
 {
     width: 100%;
@@ -101,7 +82,7 @@ header
 
 
 
-/* -----------------------------------------Navigation------OK------------------------------------- */
+/* -----------------------------------------Navigation------------------------------------------- */
 
 nav ul
 {
@@ -126,8 +107,28 @@ nav a:hover
     border-top: 3px solid #0065fc;
 }
 
-    /*--------------------------------------------formulaire-----OK----------------------------------- */
+/* -----------------------------------------main----------------------------------------- */
 
+#main_container
+{
+    margin: 0px 50px 60px 50px;
+}
+    
+#main_container h1 
+{
+    font-family: 'Raleway-Bold';
+    font-weight: bold;
+    font-size: 22px;
+    margin: 15px auto;
+}
+    
+#main_container .slogan p 
+{
+    margin: 15px auto;
+    font-family: 'Raleway-Medium';
+}  
+
+/*-------formulaire---------- */
 
 form
 {
@@ -184,7 +185,7 @@ input::placeholder
     color: #000;
 }
 
-/*--------------------------------------------Filtres--------------------------------------------*/
+/*--------Filtres-------*/
 
 #filtres
 {
@@ -194,16 +195,16 @@ input::placeholder
     font-family: 'Raleway-Bold';
 }
 
-.all_filters
-{
-    display: flex;
-    justify-content: space-between;
-}
-
 #filtres h3
 {
     margin-right: 30px;
     font-size: 16px;
+}
+
+.all_filters
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 .filtres_style
@@ -250,7 +251,7 @@ input::placeholder
     cursor: pointer;
 }
 
-/* 500 logements */
+/* --------500 logements-------- */
 
 .logements
 {
@@ -281,7 +282,7 @@ input::placeholder
     font-size: 12px;
 }
 
-/* ------------------------------------------section 1-------------------------------------------- */
+/* ------------------------------------------section hebergements-------------------------------------------- */
 
 #hebergements
 {
@@ -380,6 +381,8 @@ input::placeholder
     cursor: pointer;
 }
 
+/* --------bloc populaires-------- */
+
 .bloc_populaires
 {
     background-color: #f2f2f2;
@@ -389,26 +392,18 @@ input::placeholder
     margin-left: 20px;
 }
 
-.bloc_populaires header
-{
-    margin: 0;
-}
-
-.bloc_populaires h3
-{
-    font-family: 'Raleway-Bold';
-    font-size: 22px;
-}
-
 .titreIcon
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .titreIcon h3
 {
+    font-family: 'Raleway-Bold';
+    font-size: 22px;
     margin: 0;
 }
 
@@ -448,8 +443,6 @@ input::placeholder
     border-radius: 15px 0px 0px 15px;
 }
 
-
-
 .card_populaires figcaption
 {
     display: flex;
@@ -475,6 +468,8 @@ input::placeholder
     font-family: 'Raleway-Medium';
 }
 
+/* --------proprietes communes aux blocs pop et hebergements-------- */
+
 .prix
 {
     font-weight: bold;
@@ -490,7 +485,7 @@ input::placeholder
     color: #f2f2f2;
 }
 
-/* ---------------------------------section 2----------------------------------------- */
+/* ---------------------------------section activites----------------------------------------- */
 
 #activites
 {
@@ -564,6 +559,8 @@ input::placeholder
 
 .column_2
 {
+    display: flex;
+    flex-direction: column;
     width: 25%;
     height: 100%;
     margin-left: 15px;
@@ -590,7 +587,7 @@ input::placeholder
     height: 70%;
 }
 
-/* elements des deux gros blocs */
+/* elements communs a chaque card activites */
 
 .card_activites
 {
@@ -598,12 +595,12 @@ input::placeholder
     border-radius: 20px;
 }
 
-.card_activites figure 
+.card_activites a
 {
     height: 100%;
 }
 
-.card_activites a
+.card_activites figure 
 {
     height: 100%;
 }

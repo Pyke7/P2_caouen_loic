@@ -1,5 +1,5 @@
 
-/* ------------------------------------header --------------------------------------------*/
+/* -----------------header -------------------*/
 
 header
 {
@@ -41,12 +41,14 @@ nav li:hover
     
 }
 
-/* main */
+/* -----------------main----------------- */
 
 #main_container
 {
     margin: 0;
 }
+
+/* ------Titre------- */
 
 .slogan 
 {
@@ -54,6 +56,7 @@ nav li:hover
     margin: 0 20px;
 }
 
+/* ------form------- */
 
 form
 {
@@ -85,7 +88,7 @@ input[type="text"]
     display: none;
 }
 
-/* filtres */
+/*------- filtres------- */
 
 #filtres
 {
@@ -94,13 +97,12 @@ input[type="text"]
     margin-left: 20px;
 }
 
-
 .filtres_style
 {
     margin: 0 10px 10px 0;
 }
 
-/* logements */
+/* -------logements------- */
 
 .logements
 {
@@ -113,7 +115,7 @@ input[type="text"]
     padding: 10px;
 }
 
-/* section 1 */
+/* -------section hebergements------- */
 
 #hebergements
 {
@@ -150,6 +152,8 @@ input[type="text"]
     padding-top: 0;
 }
 
+/* -------bloc populaire------- */
+
 .bloc_populaires
 {
     border-radius: 0;
@@ -168,7 +172,7 @@ input[type="text"]
     margin-bottom: 10px;
 }
 
-/* section activites */
+/* -------section activites------- */
 
 #activites
 {
@@ -182,30 +186,16 @@ input[type="text"]
     width: 100%;
 }
 
-.gros_bloc_1
+.column_1
 {
-    flex-direction: column;
-    margin-right: 0;
-}
-
-
-.petit_bloc_1
-{
-    margin-left: 0;
-}
-
-.gros_bloc_2
-{
-    margin-left: 0;
-    flex-direction: column;
+    margin: 0;
     width: 100%;
 }
 
-
-
-.petit_bloc_2
+.column_2
 {   
-    margin-left: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .card_activites
@@ -219,7 +209,7 @@ input[type="text"]
     height: 120px;
 }
 
-/* footer */
+/*------- footer------- */
 
 footer
 {
