@@ -251,6 +251,12 @@ input::placeholder
     cursor: pointer;
 }
 
+@media screen and (max-width: 1000px) {
+    .filters_names{
+        font-size: 15px;
+    }  
+}
+
 /* --------500 logements-------- */
 
 .logements
@@ -381,6 +387,34 @@ input::placeholder
     cursor: pointer;
 }
 
+/* media query pour problème card_hebergement */
+
+@media screen and (max-width: 1315px) {
+    .bloc_hebergements{
+        margin-right: 0;
+        padding: 40px 20px;
+    }
+    .card_hebergements{
+        position: relative;
+        margin-right: 20px;
+    }
+    .card_hebergements:nth-child(3){
+        margin-right: 0;
+    }
+    .card_hebergements h4{
+        font-size: 15px;
+    }
+    .card_hebergements p{
+        position: relative;
+        bottom: 11px;
+        font-size: 14px;
+    }
+    .stars{
+        position: absolute;
+        bottom: 7px;
+    }
+}
+
 /* --------bloc populaires-------- */
 
 .bloc_populaires
@@ -466,6 +500,12 @@ input::placeholder
 {
     margin: 10px 0;
     font-family: 'Raleway-Medium';
+}
+
+@media screen and (max-width: 1315px) {
+    .card_populaires{
+        position: relative;
+    }
 }
 
 /* --------proprietes communes aux blocs pop et hebergements-------- */
@@ -669,3 +709,4 @@ footer a:hover
 {
     width: 30%;
 }
+
