@@ -12,34 +12,34 @@
     </head>
 
     <body>
-        <header>
+        <header> <!--comprend le logo et le menu de navigation-->
             <div id="logo">
                 <img src="images/logo/Booki@3x.png" alt="logo Booki"/>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#hebergements">Hébergements</a></li>
+                <ul><!--Ancres qui héritent d'une bordure bleue au survol et dirige vers les différentes sections hebergements et-->
+                    <li><a href="#hebergements">Hébergements</a></li> 
                     <li><a href="#activites">Activités</a></li>
                 </ul>
             </nav>
         </header>
 
         <main id="main_container">
-            <div class="slogan">
+            <div class="slogan"> <!--Titre et petite déscritption-->
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
 
-            <form action="#">
+            <form action="#"> <!--formulaire non fonctionnel qui change de bouton de la version desktop et mobile-->
                 <div class="icon_geo"><i class="fas fa-map-marker-alt"></i></div>
                 <input type="text" name="recherche" placeholder="Marseille, France" maxlength="20" size="20">
                 <button type="submit" id="search">
-                    <span id="search_text">Rechercher</span>
+                    <span id="search_text">Rechercher</span> <!--permet de display ou non entre desktop et mobile-->
                     <span id="search_icon"><i class="fas fa-search"></i></span>
                 </button>
             </form>
                     
-            <div id="filtres"> 
+            <div id="filtres"> <!--partie filtres avec survol mais non fonctionnels-->
                 <h3>Filtres</h3>
                 <div class="all_filters">
                     <div class="filtres_style">
@@ -61,29 +61,29 @@
                 </div>
             </div>
 
-            <div class="logements">
+            <div class="logements"> <!--descritption sur le nombre de logements-->
                 <div class="cercle_icon"><i class="fas fa-info"></i></div>
                 <p> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
                 
-            <div id="hebergements">
-                <section class="bloc_hebergements">
-                    <h3>Hébergements à Marseille</h3>
+            <div id="hebergements"> <!--section hebergements à marseille et les logements les plu populaires-->
+                <section class="bloc_hebergements"> <!--partie hebergement-->
+                    <h3>Hébergements à Marseille</h3> 
                     <div class="bloc_hebergements_content">
-                        <div class="bloc_1 row">
-                            <div class="card_hebergements">
-                                <a href="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                        <div class="bloc_1 row"> <!--bloc comprenant les 3 premieres card-->
+                            <div class="card_hebergements"> <!--comprend tout le style d'une carte de cette partie--> 
+                                <a href="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"> <!--rend toute la carte cliquable (image et descritpion)-->
                                     <figure>
                                         <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo Auberge La Cannebière">
                                         <figcaption>
                                             <h4>Auberge La Cannebière</h4>
-                                            <p>Nuit à partir de <span class="prix">25€</span></p>
+                                            <p>Nuit à partir de <span class="prix">25€</span></p> <!--span permet de mettre tous les prix en gras-->
                                             <div class="stars">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="no_stars fas fa-star"></i> 
+                                                <i class="no_stars fas fa-star"></i> <!--permet de rendre les étoiles grises quand il le faut-->
                                             </div>
                                         </figcaption>
                                     </figure>
@@ -126,7 +126,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="bloc_2 row">
+                        <div class="bloc_2 row"> <!--bloc qui contient les 3 card suivantes-->
                             <div class="card_hebergements">
                                 <a href="images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                                     <figure>
@@ -183,10 +183,10 @@
                             </div>
                         </div>
                     </div>
-                    <p class="A_plus">Afficher plus</p>
+                    <p class="A_plus">Afficher plus</p> <!--prop cursor pointer mais non fonctionnel-->
                 </section>
-                <aside class="bloc_populaires">
-                    <header class="titreIcon">
+                <aside class="bloc_populaires"> <!--partie les plus populaires (card différentes: image sur le côté)-->
+                    <header class="titreIcon"> <!--titre de la section avec l'icon -->
                         <h3>Les plus populaires</h3>
                         <div class="icons_popular">
                             <i class="fas fa-chart-line"></i>
@@ -257,21 +257,21 @@
                 </aside>
             </div>
                 
-            <section id="activites">
+            <section id="activites"> <!--section activites composés de 4 blocs qui héritent d'une width de 25% chacune-->
                 <h3>Activités à Marseille</h3>
                 <div class="bloc_activites_content">
-                    <div class="card_1 card_activites">
-                        <a href="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                    <div class="card_1 card_activites"> <!--meme taille que la card 4-->
+                        <a href="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"> <!--lien vers une image du logement plus grande-->
                             <figure>
                                 <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo du vieux port">
                                 <figcaption>
-                                    <h4>Vieux Port</h4>
+                                    <h4>Vieux Port</h4> <!--hérite d'un padding et de marges différentes -->
                                 </figcaption>
                             </figure>
                         </a>
                     </div>
                     <div class="column_1">
-                        <div class="card_2 card_activites">
+                        <div class="card_2 card_activites"> <!--prend plus de place en hauteur que la card 3 environ 60%-->
                             <a href="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                                 <figure>
                                     <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo du Fort de Pomègues">
@@ -328,7 +328,7 @@
             </section>
         </main>
             
-        <footer>
+        <footer> <!--footer en 3parties comprenant le contact et d'autres informations (liens ne redirigeant nul part)-->
             <div id="a_propos">
                 <h2>A propos</h2>
                 <ul>

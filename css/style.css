@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* intégration des polices */
+
 @font-face {
     font-family: 'Raleway';
     src: url('fonts/Raleway-Regular.ttf') format('TrueType');
@@ -39,6 +41,8 @@ main img
     width: 100%;
     object-fit: cover;
 }
+
+/* modifications des propritétés par défaut */
 
 a
 {
@@ -91,7 +95,7 @@ nav ul
 
 nav li
 {
-    margin-right: 20px;
+    margin-right: 20px; /*ecart entre les élément du menu de navigation*/
     font-family: 'Raleway-Medium';
 }
 
@@ -101,7 +105,7 @@ nav a
     padding: 28px;
 }
 
-nav a:hover
+nav a:hover /*fonctionnalité opérationnelle*/
 {
     color: #0065fc;
     border-top: 3px solid #0065fc;
@@ -109,7 +113,7 @@ nav a:hover
 
 /* -----------------------------------------main----------------------------------------- */
 
-#main_container
+#main_container /*mise en page des marges de nos deux sections*/
 {
     margin: 0px 50px 60px 50px;
 }
@@ -251,7 +255,7 @@ input::placeholder
     cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { /*permet de corriger le derniers filtres qui se mettait sur 2 lignes*/
     .filters_names{
         font-size: 15px;
     }  
@@ -301,7 +305,7 @@ input::placeholder
 
 .bloc_hebergements
 {
-    flex: 2;
+    flex: 2; /*rend le bloc hebergement 2 fois plus grand que le bloc populaire 75-25*/
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-right: 20px;
@@ -398,7 +402,7 @@ input::placeholder
         position: relative;
         margin-right: 20px;
     }
-    .card_hebergements:nth-child(3){
+    .card_hebergements:nth-child(3){ /*enleve la marge de la 3 ème card pour récuperer de la place et un padding correct*/
         margin-right: 0;
     }
     .card_hebergements h4{
@@ -502,7 +506,7 @@ input::placeholder
     font-family: 'Raleway-Medium';
 }
 
-@media screen and (max-width: 1315px) {
+@media screen and (max-width: 1315px) { /*correction de la position des étoiles*/
     .card_populaires{
         position: relative;
     }
@@ -520,7 +524,7 @@ input::placeholder
     color: #0065fc;
 }
 
-.no_stars
+.no_stars /*permet l'evaluation des logements en rendant les étoiles grises*/
 {
     color: #f2f2f2;
 }
